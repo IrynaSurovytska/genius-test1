@@ -1,0 +1,98 @@
+:root{
+  
+   --color-brand-light:#819B57; 
+   --color-primery-light: #FAF4EA;
+   --color-primery-dark: #31261A;
+   --color-brand-dark:  #465929;
+   ;
+
+}
+
+/* base */
+
+
+body{
+    color: var(--color-primery-dark);
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+.button{
+   color: var(--color-primery-light);
+   border: 2px solid var(--color-brand-light); 
+    border-radius: 8px;
+background-color: var(--color-brand-light);
+cursor: pointer;
+}
+.button:hover{
+    color: var(--color-brand-light);
+    background-color: transparent;
+}
+/* link */
+.link{
+    color: var(--color-primery-light);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+/* hero-Sektion */
+.link:hover{
+    color: var(--color-brand-light);
+    text-decoration: underline;
+
+}
+.hero-titel{
+    color:  var(--color-primery-light);
+  font-family: poppins, sans-serif; 
+  font-weight: 900;
+  text-align: center;
+  font-size: 128px;
+
+}
+.hero-titel .accent{
+    color: var(--color-brand-light);
+    font-family: Poppins;
+  
+.advantages-item{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+    
+}
+.advantages-list{
+    background-color:  var(--color-brand-light);
+    color: var(--color-primery-light);
+}
+.section-titel{
+    color:var(--color-primery-dark) ;
+   
+}
+
+.section-titel .accent{
+    color: var(--color-brand-dark);
+
+ 
+    
+
+}
+.accent{
+    color: var(--color-brand-light);
+  
+
+}
+/* Traditons-text */
+ .Traditons-text span{ 
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: var(--color-brand-light)
+
+}
