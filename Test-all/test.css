@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-conteiner{
+    display: flex;
+    flex-direction:row  ;
+    justify-content: space-around;
+    align-items:center;
+}
+.item{ 
+    flex-basis: 100px;
+    height: 100px;
+    background-color: rgb(177, 214, 42);
+    padding: 10px;
+    border: 5px solid darkred;
+   margin: 10px;
+  }
+  .item:nth-child(2){
+    flex-grow: 1;
+  }
+  .item:nth-child(3){
+    flex-grow: 3;
+  }
