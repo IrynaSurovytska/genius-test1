@@ -243,6 +243,18 @@ box-shadow: -16px 16px 0 0 var(--color-primery-light), -16px 16px 2px 0 var(--co
     content: '';
 
 }
+/* carusel */
+.formats-carusel{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--color-primery-dark);
+}
+.carusel-icon{
+    fill: var(--color-primery-dark);
+}
+
 /* formats-titel */
 .formats-list{
     display: flex;
@@ -250,9 +262,7 @@ box-shadow: -16px 16px 0 0 var(--color-primery-light), -16px 16px 2px 0 var(--co
     gap: 20px;
     
 }
-.formats-icon{
-    fill: var(--color-primery-dark);
-}
+
 .formats-item{
     flex-basis: calc((100%-40px)/3);
     }
