@@ -250,6 +250,9 @@ box-shadow: -16px 16px 0 0 var(--color-primery-light), -16px 16px 2px 0 var(--co
     gap: 20px;
     
 }
+.formats-icon{
+    fill: var(--color-primery-dark);
+}
 .formats-item{
     flex-basis: calc((100%-40px)/3);
     }
@@ -299,7 +302,8 @@ font-size: 24px;
     
 }
 .address-icon{
-    fill: var(--color-primery-light);
+    fill: white;
+  
 }
 .adress-copyright{
     font-size: 14px;
@@ -310,13 +314,4 @@ font-size: 24px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-/* .test-box{ */
-    width: 300px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 20px auto;
-
-    background-image: radial-gradient(gold,  blue 
-);
 }
