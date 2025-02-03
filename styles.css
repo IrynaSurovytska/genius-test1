@@ -252,7 +252,7 @@ box-shadow: -16px 16px 0 0 var(--color-primery-light), -16px 16px 2px 0 var(--co
     height: 44px;
     border-radius: 50%;
     padding: 0;
-    fill: var(--color-primery-dark);
+    color: var(--color-primery-dark);
     background-color: transparent;
     border: 1px solid var(--color-primery-dark);
     cursor: pointer;
@@ -261,8 +261,8 @@ box-shadow: -16px 16px 0 0 var(--color-primery-light), -16px 16px 2px 0 var(--co
 .carousel-button:hover{
     background-color: var(--color-primery-dark );
 }
-.carousel-button:hover .carousel-arrow{
-    fill: var(--color-brand-light);
+.carousel-button:hover .carousel-icon{
+    color: var(--color-brand-light);
 }
 /* formats-titel */
 .formats-list{
